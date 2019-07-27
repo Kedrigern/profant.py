@@ -11,11 +11,12 @@ Lektor je nový a moderní projekt napsaný v Pythonu. Poučil se z chyb předch
 - [X] **základní struktura**: menu, statické stránky (bez plného obsahy)
   - [X] menu
   - [X] statické stránky (bez plného obsahu)
-- [ ] **blog post**: (neobsahuje migrace starého obsahy)
+- [X] **blog post**: (neobsahuje migrace starého obsahy)
   - [X] struktura článku se všemi metadaty apod.
-  - [ ] perex ve výpisu, [plugin](https://github.com/Andrew-Shay/lektor-read-full-post)
-  - [ ] obrázek ve výpisu
+  - [X] perex ve výpisu, [plugin](https://github.com/Andrew-Shay/lektor-read-full-post)
+  - [X] obrázek ve výpisu
 - [ ] **styly a skripty**:
+  - [ ] [Webpack](https://www.getlektor.com/docs/guides/webpack/)
   - [ ] [Foundation](https://foundation.zurb.com/)
   - [ ] Custom styly
   - [ ] Javascript
@@ -26,6 +27,7 @@ Lektor je nový a moderní projekt napsaný v Pythonu. Poučil se z chyb předch
   - [ ] Přílohy
 - [ ] **RSS/Atom**
 - [ ] **seo**:
+  - [ ] ulrs (same or permanent redirect)
   - [ ] sitemap
   - [ ] keywords
   - [ ] twitter sharing
