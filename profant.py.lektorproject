@@ -1,2 +1,5 @@
 [project]
 name = profant.py
+
+[packages]
+lektor-read-full-post = 0.3
