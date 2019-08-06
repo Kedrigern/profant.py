@@ -1,5 +1,6 @@
 [project]
 name = profant.py
+url = https://www.profant.eu
 
 [packages]
 lektor-read-full-post = 0.3

@@ -34,7 +34,7 @@ Lektor je nový a moderní projekt napsaný v Pythonu 3. Poučil se z chyb před
 - [ ] **RSS/Atom**
 - [ ] **seo**:
   - [ ] urls (same or permanent redirect), [question in discusion](https://www.getlektor.com/docs/guides/blog/)
-  - [ ] [sitemap](https://www.getlektor.com/docs/guides/sitemap/)
+  - [X] [sitemap](https://www.getlektor.com/docs/guides/sitemap/)
   - [ ] meta keywords
   - [ ] twitter sharing
   - [ ] FB sharing
