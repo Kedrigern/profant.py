@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Test page</h1>
+{% set item = bag('test', 'array') | first %}
+{% set el = item['date'] %}
+
+<p>{% if el is string %}Is string{% endif %}</p>
+<pre>{{el}}</pre>
+
+{#
+{{el.strftime('%Y')}}
+Error: 'str object' has no attribute 'strftime'
+#}
+
+{#
+{{strftime(el, '%Y')}}
+Error: 'strftime' is undefined
+#}
+
+{#
+{{el|dateformat('full')=
+Error: assert isinstance(value, (date, datetime, time))}}
+#}
+
+{% endblock %}

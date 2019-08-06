@@ -1,10 +1,14 @@
+# Webpack
+
 Spuštění buildu:
-```
+
+```sh
 npm run build
 ```
 
 Závislosti:
-```
+
+```sh
 npm i --save-dev webpack webpack-cli babel-loader @babel/core @babel/preset-env sass sass-loader postcss-loader css-loader mini-css-extract-plugin file-loader
 ```
 

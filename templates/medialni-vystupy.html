@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<article class="page content-block" id="content">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1 class="page__headline">{{this.title}}</h1>
+        {% set media = bag('media', 'array') %}    
+        {# TODO: Aktuální počet článků #}
+        <p>Mediální výstupy týkající se práce poslance Ondřeje Profanta. Na tomto webu je <strong>{{pagination}} článků</strong>. V tabulce je <strong>{{media|length}} článků</strong> z pirátských webů:</p>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Datum</th>
+              <th>Název</th>
+              <th>Tagy</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for vystup in media | reverse %}
+          <tr>
+            <td>{{vystup.date}}</td>
+            <td><a href="{{vystup.url}}">
+              {% if "profant" in vystup.author.lower() or "profant" in vystup.title.lower() %}
+              <strong>{{vystup.title}}</strong>
+              {% else %}
+                {{vystup.title}}
+              {% endif %}
+            </a></td>
+            <td>{{vystup.tags}}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+        {# TODO: Socky a navštěvnost v grafu #}
+      </div>
+    </div>
+</article>
+{% endblock %}

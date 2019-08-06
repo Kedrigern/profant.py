@@ -1,0 +1,941 @@
+{ "array": [
+  {
+    "date": "2014-10-12",
+    "title": "10 bodů pro novou Radu",
+    "author": "Jakub Michálek, Ondřej Profant, Mikuláš Ferjenčík, Adam Zábranský",
+    "tags": "rhmp",
+    "url": "https://praha.pirati.cz/10-klicovych-bodu.html"
+  },
+  {
+    "date": "2014-11-05",
+    "title": "Opozici se věnujeme naplno",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "zhmp",
+    "url": "https://praha.pirati.cz/zastupitele-piratu-pracuji-naplno.html"
+  },
+  {
+    "date": "2014-11-27",
+    "title": "Přehled Pirátů ve výborech",
+    "author": "Jan Loužek",
+    "tags": "výbory",
+    "url": "https://praha.pirati.cz/prehled-piratu-ve-vyborech.html"
+  },
+  {
+    "date": "2014-12-02",
+    "title": "Zastupitelský Piratecon",
+    "author": "Jan Loužek",
+    "tags": "akce piráti",
+    "url": "https://praha.pirati.cz/zastupitelsky-piratecon.html"
+  },
+  {
+    "date": "2014-12-05",
+    "title": "Vendor lock-in pokračuje",
+    "author": "Ondřej Profant",
+    "tags": "projev",
+    "url": "https://praha.pirati.cz/zasedala-rada.html"
+  },
+  {
+    "date": "2015-01-12",
+    "title": "Výročí smrti Aarona Schwarze",
+    "author": "Jan Loužek",
+    "tags": "akce",
+    "url": "https://praha.pirati.cz/aaron.html"
+  },
+  {
+    "date": "2015-01-22",
+    "title": "Koalice schválila superzakázku na odpad",
+    "author": "Jakub Michálek",
+    "tags": "zhmp",
+    "url": "https://praha.pirati.cz/treti-zasedani.html"
+  },
+  {
+    "date": "2015-01-23",
+    "title": "Nechceme velký odpadový tendr",
+    "author": "Ondřej Profant",
+    "tags": "zhmp projev",
+    "url": "https://praha.pirati.cz/ondra.html"
+  },
+  {
+    "date": "2015-01-25",
+    "title": "Konference o dopravních kartách za účasti piráta",
+    "author": "Ondřej Profant",
+    "tags": "doprava",
+    "url": "https://praha.pirati.cz/londyn.html"
+  },
+  {
+    "date": "2015-01-31",
+    "title": "Papírové kupóny jsou důležitý doplněk Opencard",
+    "author": "Jakub Michálek",
+    "tags": "zhmp opencard doprava",
+    "url": "https://praha.pirati.cz/papirove-kupony.html"
+  },
+  {
+    "date": "2015-02-19",
+    "title": "Piráti radí, jak na magistrát bez megaztrát",
+    "author": "Jakub Michálek",
+    "tags": "magistrát",
+    "url": "https://praha.pirati.cz/jak-na-magistrat-bez-megastrat.html"
+  },
+  {
+    "date": "2015-03-27",
+    "title": "Strany v pražském zastupitelstvu odmítly zveřejňovat příjmy svých politiků",
+    "author": "Jakub Michálek",
+    "tags": "informace piráti",
+    "url": "https://praha.pirati.cz/pirati-zverejnili-prijmy.html"
+  },
+  {
+    "date": "2015-04-05",
+    "title": "Piráti jako jediná strana zveřejnili komplet své příjmy",
+    "author": "Jakub Michálek",
+    "tags": "informace piráti",
+    "url": "https://praha.pirati.cz/transparentni-nahrady.html"
+  },
+  {
+    "date": "2015-04-21",
+    "title": "Praha kupuje zbytečně drahé počítače",
+    "author": "Ondřej Profant, Adam Zábranský",
+    "tags": "IT magistrát",
+    "url": "https://praha.pirati.cz/drahe-pocitace.html"
+  },
+  {
+    "date": "2015-05-20",
+    "title": "Piráti na hackathonu Prague Hacks",
+    "author": "Jan Loužek, Ondřej Profant",
+    "tags": "Praha open-data",
+    "url": "https://praha.pirati.cz/open-data.html"
+  },
+  {
+    "date": "2015-06-06",
+    "title": "Shrnutí květnového zasedání zastupitelstva",
+    "author": "Adam Zábranský",
+    "tags": "zhmp",
+    "url": "https://praha.pirati.cz/sedme-zasedani.html"
+  },
+  {
+    "date": "2015-06-26",
+    "title": "Exkurze výboru v Dráždanech",
+    "author": "Ondřej Profant",
+    "tags": "doprava",
+    "url": "https://praha.pirati.cz/dresden.html"
+  },
+  {
+    "date": "2015-07-01",
+    "title": "Chceme dokopat ostatní zastupitele, aby zveřejňovali majetek na webu",
+    "author": "Jakub Michálek",
+    "tags": "majetková-přiznání informace",
+    "url": "https://praha.pirati.cz/majetkova-priznani.html"
+  },
+  {
+    "date": "2015-08-27",
+    "title": "Doporučení Pirátů Radě hl. m. Prahy pro oblast ICT",
+    "author": "Ondřej Profant",
+    "tags": "informatika zhmp",
+    "url": "https://praha.pirati.cz/otevreny-dopis-rade-it.html"
+  },
+  {
+    "date": "2015-09-17",
+    "title": "Rada Prahy schválila kvalitní teze digitální strategie",
+    "author": "Ondřej Profant, Adam Zábranský",
+    "tags": "informatika zhmp",
+    "url": "https://praha.pirati.cz/rada-digitalni-strategie.html"
+  },
+  {
+    "date": "2015-09-22",
+    "title": "Koalice v Praze jede opět ve starých kolejích",
+    "author": "Adam Zábranský",
+    "tags": "zhmp koalice",
+    "url": "https://praha.pirati.cz/zarijove-zasedani.html"
+  },
+  {
+    "date": "2015-09-22",
+    "title": "Praha zbytečně utrácí 17 milionů za produkty Microsoftu.",
+    "author": "Ondřej Profant",
+    "tags": "magistrát",
+    "url": "https://praha.pirati.cz/microsoft-na-magosi.html"
+  },
+  {
+    "date": "2015-10-07",
+    "title": "Staňte se pirátským koordinátorem dobrovolníků!",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "výběrová-řízení piráti",
+    "url": "https://praha.pirati.cz/koordinator-dobrovolniku.html"
+  },
+  {
+    "date": "2015-10-29",
+    "title": "Vyjednávání dohody TTIP",
+    "author": "Ondřej Profant",
+    "tags": "EU TTIP",
+    "url": "https://praha.pirati.cz/ttip.html"
+  },
+  {
+    "date": "2015-11-03",
+    "title": "Tento víkend nabídne Brno ochutnávku svobodné kultury",
+    "author": "Jan Loužek",
+    "tags": "akce",
+    "url": "https://praha.pirati.cz/navstivte-openalt.html"
+  },
+  {
+    "date": "2015-11-12",
+    "title": "Ondřej Profant na brněnském OpenAltu",
+    "author": "Jan Loužek, Ondřej Profant",
+    "tags": "akce",
+    "url": "https://praha.pirati.cz/ondra-openalt.html"
+  },
+  {
+    "date": "2015-12-07",
+    "title": "Pražští Piráti vyzvali TOP09 k jednání o koalici proti Březinovi a Kleslové",
+    "author": "Jakub Michálek, Ondřej Profant",
+    "tags": "územní-plán koalice piráti",
+    "url": "https://praha.pirati.cz/jednani-o-koalici.html"
+  },
+  {
+    "date": "2016-01-28",
+    "title": "Omezení buskingu a podržení podvodníka",
+    "author": "Jakub Michálek",
+    "tags": "zhmp busking brezina libensky-most trafiky informatika",
+    "url": "https://praha.pirati.cz/zasedani-leden.html"
+  },
+  {
+    "date": "2016-02-04",
+    "title": "Piráti nesouhlasí s demolicí Libeňského mostu",
+    "author": "Ondřej Profant, Jan Loužek",
+    "tags": "praha-7 praha-8 majetek doprava libensky-most",
+    "url": "https://praha.pirati.cz/libensky-most.html"
+  },
+  {
+    "date": "2016-02-08",
+    "title": "Nechceme Velkého bratra v Praze",
+    "author": "Ondřej Profant, Adam Zábranský",
+    "tags": "Praha kamery vendor-lock",
+    "url": "https://praha.pirati.cz/kamerovy-syste.html"
+  },
+  {
+    "date": "2016-02-14",
+    "title": "Otevřený dopis redakci White Media",
+    "author": "Mikuláš Ferjenčík, Ondřej Profant, Jakub Michálek, Adam Zábranský",
+    "tags": "otevřené-dopisy",
+    "url": "https://praha.pirati.cz/dopis-white-media.html"
+  },
+  {
+    "date": "2016-02-25",
+    "title": "ANO a ČSSD v Praze nechtějí zveřejňovat faktury",
+    "author": "Adam Zábranský",
+    "tags": "magistrát",
+    "url": "https://praha.pirati.cz/poskytovani-faktur.html"
+  },
+  {
+    "date": "2016-02-25",
+    "title": "Zastupitelé schválili opravu Libeňského mostu",
+    "author": "Jakub Michálek",
+    "tags": "zhmp doprava",
+    "url": "https://praha.pirati.cz/zastupitelstvo-unor-2016.html"
+  },
+  {
+    "date": "2016-03-02",
+    "title": "Lítačka je krok správným směrem",
+    "author": "Mikuláš Ferjenčík, Ondřej Profant",
+    "tags": "opencard lítačka",
+    "url": "https://praha.pirati.cz/clanek-litacka.html"
+  },
+  {
+    "date": "2016-03-07",
+    "title": "Paní ministryně, zveřejněte data k výsledkům z maturitních testů",
+    "author": "Adam Zábranský",
+    "tags": "informace",
+    "url": "https://praha.pirati.cz/zverejnujte-vysledky-maturit.html"
+  },
+  {
+    "date": "2016-03-15",
+    "title": "Připojujeme se k výzvě „Nechte kliniku dýchat“",
+    "author": "Jakub Michálek, Ondřej Profant, Mikuláš Ferjenčík, Adam Zábranský",
+    "tags": "klinika praha-3 Praha",
+    "url": "https://praha.pirati.cz/vyzva-klinika.html"
+  },
+  {
+    "date": "2016-03-16",
+    "title": "Piráti chtějí dohlédnout na „vyvedenou“ informatiku, nominují Ondřeje Profanta",
+    "author": "Jan Loužek, Ondřej Profant, Jakub Michálek",
+    "tags": "Praha informatika open-data",
+    "url": "https://praha.pirati.cz/nominace-ondry-do-oict.html"
+  },
+  {
+    "date": "2016-03-23",
+    "title": "ANO vytáhlo z kuchyňky 20 miliónů na účetní systém",
+    "author": "Ondřej Profant",
+    "tags": "magistrát",
+    "url": "https://praha.pirati.cz/dvacet-milionu-pro-gordic.html"
+  },
+  {
+    "date": "2016-03-28",
+    "title": "Akce aktivistů proti podlézání Číně se zúčastnila i Pirátka Michaela Krausová",
+    "author": "Ondřej Profant",
+    "tags": "Praha akce",
+    "url": "https://praha.pirati.cz/cina.html"
+  },
+  {
+    "date": "2016-04-15",
+    "title": "Magistrát potvrdil: Pražské stavební předpisy napsali úředníci bez kvalifikace",
+    "author": "Ondřej Profant",
+    "tags": "Praha stavební-předpisy",
+    "url": "https://praha.pirati.cz/stavebni-predpisy-psali-urednici.html"
+  },
+  {
+    "date": "2016-04-29",
+    "title": "Březina bude předsedou výboru pro majetek, ANO se zajistilo.",
+    "author": "Mikuláš Ferjenčík, Ondřej Profant, Jan Loužek",
+    "tags": "Praha zhmp Karel-Březina",
+    "url": "https://praha.pirati.cz/ano-se-zajistilo.html"
+  },
+  {
+    "date": "2016-05-05",
+    "title": "Piráti zveřejnili připravovaný územní plán Prahy a žádají město: zveřejňujte ho průběžně sami!",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "územní-plán",
+    "url": "https://praha.pirati.cz/metropolitni-plan.html"
+  },
+  {
+    "date": "2016-05-09",
+    "title": "Opět rozdáváme 80 000 Pirátských listů!",
+    "author": "Jan Loužek",
+    "tags": "piráti",
+    "url": "https://praha.pirati.cz/piratske-listy-podruhe.html"
+  },
+  {
+    "date": "2016-05-19",
+    "title": "Chybějící údržba Libeňského mostu způsobila rozsáhlé škody.",
+    "author": "Ondřej Profant",
+    "tags": "Praha doprava",
+    "url": "https://praha.pirati.cz/tk-libensky-most.html"
+  },
+  {
+    "date": "2016-05-29",
+    "title": "Koaliční buldozer smetl všechny návrhy opozice. Zasedání trvalo jen čtyři hodiny.",
+    "author": "Jan Loužek, Ondřej Profant",
+    "tags": "Praha zhmp klinika městské-firmy",
+    "url": "https://praha.pirati.cz/17-zhmp-souhrn.html"
+  },
+  {
+    "date": "2016-06-18",
+    "title": "Zastupitelstvo 16. 6. nepřineslo změnu",
+    "author": "Ondřej Profant, Jakub Michálek",
+    "tags": "Praha zhmp",
+    "url": "https://praha.pirati.cz/zastupitelstvo-16-6.html"
+  },
+  {
+    "date": "2016-09-13",
+    "title": "Piráti zjistili, že radiový systém Prahy za 680 milionů dokáže odposlouchávat i laik.",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "Praha",
+    "url": "https://praha.pirati.cz/odposlouchavani.html"
+  },
+  {
+    "date": "2016-09-16",
+    "title": "Koalice: Trafiky neřešíme, Béma nežalujeme, peníze neinvestujeme.",
+    "author": "Jan Loužek, Mikuláš Ferjenčík",
+    "tags": "Praha",
+    "url": "https://praha.pirati.cz/trafiky-neresime-sabatku-zastavime.html"
+  },
+  {
+    "date": "2016-10-20",
+    "title": "Slezákovi územní rozvoj nechat nechceme",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "Praha",
+    "url": "https://praha.pirati.cz/slezak-ur.html"
+  },
+  {
+    "date": "2016-10-27",
+    "title": "Vláda dnes chtěla podepsat smlouvu CETA. Informace o dopadech na české hospodářství nemá.",
+    "author": "Petr Dvořáková",
+    "tags": "CETA",
+    "url": "https://pirati.cz/tiskove-zpravy/ceta.html"
+  },
+  {
+    "date": "2016-11-22",
+    "title": "Piráti vyhlásili výběrové řízení na krajské koordinátory",
+    "author": "Petra Dvořáková",
+    "tags": "stanovisko",
+    "url": "https://pirati.cz/tiskove-zpravy/krajsti-koordinatori.html"
+  },
+  {
+    "date": "2016-11-22",
+    "title": "Piráti: Praha rezignovala na boj se závislostí na dodavateli účetnictví",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "Praha",
+    "url": "https://praha.pirati.cz/praha-rezignovala-na-boj-se-zavislosti-na-dodavateli-ucetnictvi.html"
+  },
+  {
+    "date": "2016-11-25",
+    "title": "ANO a ČSSD hodily nájemníky písnického sídliště přes palubu",
+    "author": "Jakub Michálek, Ondřej Profant, Mikuláš Ferjenčík",
+    "tags": "Praha",
+    "url": "https://praha.pirati.cz/pisnicti-pres-palubu.html"
+  },
+  {
+    "date": "2017-01-17",
+    "title": "Praha se chystá utratit za účetní systém další půlmiliardu, Piráti nesouhlasí",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "praha účetnictví gordic informatika vendor-lock",
+    "url": "https://praha.pirati.cz/pulmiliarda-pro-gordic.html"
+  },
+  {
+    "date": "2017-01-27",
+    "title": "Jízdné v kuponu, na kartě nebo v mobilu. Piráti představují vizi odbavování v pražské dopravě.",
+    "author": "Jan Loužek",
+    "tags": "praha doprava",
+    "url": "https://praha.pirati.cz/vize-dopravniho-odbavovani.html"
+  },
+  {
+    "date": "2017-02-01",
+    "title": "Je město Praha řádný hospodář? Aneb jak Písničtí přišli o sídliště.",
+    "author": "Ondřej Profant",
+    "tags": "praha pisnice",
+    "url": "https://praha.pirati.cz/sidliste-prodano.html"
+  },
+  {
+    "date": "2017-04-06",
+    "title": "Piráti: V Praze by se dalo šlapat, pokud by vedení města chtělo",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "praha doprava",
+    "url": "https://praha.pirati.cz/cyklistika.html"
+  },
+  {
+    "date": "2017-04-28",
+    "title": "Piráti k zasedání pražského zastupitelstva: zbytečná silnice za miliardy",
+    "author": "Adam Zábranský",
+    "tags": "zhmp",
+    "url": "https://praha.pirati.cz/zbytecna-silnice-vestec.html"
+  },
+  {
+    "date": "2017-05-16",
+    "title": "Vládám uniká malware, který samy financují. Je to podobné jako u chemických zbraní.",
+    "author": "Ondřej Profant",
+    "tags": "obrana",
+    "url": "https://pirati.cz/tiskove-zpravy/vladam-unika-malware-ktery-samy-financuji.html"
+  },
+  {
+    "date": "2017-05-29",
+    "title": "Zakázka na datové centrum psaná na míru",
+    "author": "Ondřej Profant",
+    "tags": "praha informatika",
+    "url": "https://praha.pirati.cz/zakazka-psana-na-miru.html"
+  },
+  {
+    "date": "2017-06-19",
+    "title": "Magistrát neřeší problémy, namísto toho podporuje dinosaury",
+    "author": "Ondřej Profant",
+    "tags": "informatika vendor-lock",
+    "url": "https://praha.pirati.cz/magistrat-neresi-problemy-v-it.html"
+  },
+  {
+    "date": "2017-06-30",
+    "title": "Piráti dali vládě čtyřku, tři ministři podle nich propadli.",
+    "author": "Mikuláš Ferjenčík",
+    "tags": "kampaň vláda",
+    "url": "https://pirati.cz/tiskove-zpravy/ctyrku-vlade-od-piratu.html"
+  },
+  {
+    "date": "2017-08-15",
+    "title": "Piráti: Rada schvaluje nepřiměřené výdaje v IT oblasti bez projednání komisí",
+    "author": "Ondřej Profant",
+    "tags": "informatika rhmp rada",
+    "url": "https://praha.pirati.cz/prilisne-vydaje-za-it.html"
+  },
+  {
+    "date": "2017-09-03",
+    "title": "Pirátská solární loď v Praze",
+    "author": "Ondřej Profant",
+    "tags": "kampan solarni-lod",
+    "url": "https://praha.pirati.cz/plavba-do-snemovny.html"
+  },
+  {
+    "date": "2017-09-15",
+    "title": "Zastupitelstvo schválilo návrh Pirátů a dalších zastupitelů: Mariánský sloup na Staroměstském náměstí nebude!",
+    "author": "Jan Loužek, Adam Zábranský, Ondřej Profant",
+    "tags": "zhmp",
+    "url": "https://praha.pirati.cz/mariansky-sloup-nebude.html"
+  },
+  {
+    "date": "2017-09-25",
+    "title": "Pokud v Blance 2 nebude MHD, nestojí za ty peníze",
+    "author": "Ondřej Profant",
+    "tags": "doprava",
+    "url": "https://praha.pirati.cz/chceme-v-blance-ii-mh.html"
+  },
+  {
+    "date": "2017-10-10",
+    "title": "Předražený internet na Petříne",
+    "author": "Ondřej Profant",
+    "tags": "informatika smart-cities",
+    "url": "https://praha.pirati.cz/wifi-na-petrine.html"
+  },
+  {
+    "date": "2017-10-24",
+    "title": "Piráti jsou druhou největší stranou v Praze. V obecních volbách se pokusí úspěch zopakovat",
+    "author": "Adam Zábranský",
+    "tags": "praha",
+    "url": "https://praha.pirati.cz/pirati-druzi-v-praze.html"
+  },
+  {
+    "date": "2017-10-29",
+    "title": "Piráti navrhují do předsednictva Sněmovny olomouckého lídra Vojtěcha Pikala",
+    "author": "Karolína Sadílková",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-nominuji-pikala.html"
+  },
+  {
+    "date": "2017-10-30",
+    "title": "V pražském zastupitelstvu dojde k obměně, nastoupí Piráti Viktor Mahrik a Ondřej Kallasch",
+    "author": "Adam Zábranský",
+    "tags": "praha",
+    "url": "https://praha.pirati.cz/obmena-v-klubu-nastoupi-mahrik-kallasch.html"
+  },
+  {
+    "date": "2017-11-08",
+    "title": "Zastupitelstvo chce dostavět městský okruh, superholding neprojednalo",
+    "author": "Jan Loužek, Adam Zábranský",
+    "tags": "praha",
+    "url": "https://praha.pirati.cz/blanka-2-a-chystany-superholding.html"
+  },
+  {
+    "date": "2017-11-14",
+    "title": "Čelní pozice ve výborech by si dle Pirátů měly rozdělit opoziční strany poměrně",
+    "author": "Karolína Sadílková",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/celni-pozice-ve-vyborech-opozici.html"
+  },
+  {
+    "date": "2017-11-30",
+    "title": "Koalice připravila extrémně projídací rozpočet",
+    "author": "Adam Zábranský",
+    "tags": "rozpočet",
+    "url": "https://praha.pirati.cz/pirati-hlasovali-proti-projidacimu-rozpoctu.html"
+  },
+  {
+    "date": "2017-12-04",
+    "title": "Zakázka za 93 milionů na radiový systém: předražená a bez soutěže",
+    "author": "Ondřej Profant",
+    "tags": "informatika mrs tetra",
+    "url": "https://praha.pirati.cz/jrbu-na-mrs.html"
+  },
+  {
+    "date": "2017-12-14",
+    "title": "Koaliční mlčení k nemocnici na Františku a Metru D. Piráti mezitím vystřídali stráže.",
+    "author": "Adam Zábranský",
+    "tags": "zhmp nemocnice-na-františku",
+    "url": "https://praha.pirati.cz/mlceni-o-dopravnim-podniku-nemocnici-na-frantisku-a-pochybne-smart-cities.html"
+  },
+  {
+    "date": "2017-12-18",
+    "title": "Pražští Piráti si zvolili nové předsednictvo",
+    "author": "Adam Zábranský",
+    "tags": "piráti",
+    "url": "https://praha.pirati.cz/prazsti-pirati-si-zvolili-nove-predsednictvo.html"
+  },
+  {
+    "date": "2018-01-11",
+    "title": "Otevřený dopis Pirátů upozorňuje na předražené IT systémy MPSV",
+    "author": "Karolína Sadílková",
+    "tags": "informatika",
+    "url": "https://pirati.cz/tiskove-zpravy/otevreny-dopis-piratu-predrazene-it-v-mpsv.html"
+  },
+  {
+    "date": "2018-01-19",
+    "title": "Libeňský most se měl opravovat už dva roky",
+    "author": "Ondřej Kallasch",
+    "tags": "kauzy",
+    "url": "https://praha.pirati.cz/libensky-most-se-mel-opravovat-uz-dva-roky.html"
+  },
+  {
+    "date": "2018-01-21",
+    "title": "Pirátská konference „Piratecon“ vzbudila velký zájem návštěvníků",
+    "author": "Roman Kučera",
+    "tags": "akce",
+    "url": "https://pirati.cz/tiskove-zpravy/zastupitelsky-piratecon.html"
+  },
+  {
+    "date": "2018-01-26",
+    "title": "Praha schválila záměr na převzetí Nemocnice na Františku. Výměna stráží u Pirátů dokončena",
+    "author": "Jan Loužek, Adam Zábranský",
+    "tags": "piráti",
+    "url": "https://praha.pirati.cz/praha-prevezme-nemocnici-ferjencik-rezignoval.html"
+  },
+  {
+    "date": "2018-02-01",
+    "title": "Bartoš: Výbor pro veřejnou správu má nově čtyři podvýbory. Zabývat se budou veřejnou správou, bytovou politikou, cestovním ruchem a eGovernmentem",
+    "author": "Ivan Bartoš",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/ctyri-podvybory-vyboru-pro-verejnou-spravu.html"
+  },
+  {
+    "date": "2018-02-02",
+    "title": "Vyzýváme náměstka Dolínka k rezignaci kvůli současnému stavu pražských mostů",
+    "author": "Viktor Mahrik",
+    "tags": "doprava libensky-most",
+    "url": "https://praha.pirati.cz/vyzva-k-rezignaci-dolinka.html"
+  },
+  {
+    "date": "2018-02-05",
+    "title": "Piráti vyhlásili primární volby na lídra pražské kandidátky, rozhodnutí padne v únoru",
+    "author": "Adam Zábranský",
+    "tags": "piráti",
+    "url": "https://praha.pirati.cz/pirati-vyhlasili-volbu-lidra.html"
+  },
+  {
+    "date": "2018-02-15",
+    "title": "Piráti zvou na nedělní guláš zdarma a vyzývají k pomoci potravinovým bankám",
+    "author": "Jakub Dušánek",
+    "tags": "akce",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-zvou-na-dalsi-povolebni-gulas.html"
+  },
+  {
+    "date": "2018-03-06",
+    "title": "Zakázka na míru podruhé – datové centrum Chodovec pod taktovkou velkých IT firem",
+    "author": "Ondřej Profant, Ondřej Kallasch",
+    "tags": "informatika",
+    "url": "https://praha.pirati.cz/datove-centrum-schvaleno-podruhe-pirati-maji-vyhrady.html"
+  },
+  {
+    "date": "2018-03-08",
+    "title": "Pražský magistrát udělal další krok pro otevřená data",
+    "author": "Jan Loužek, Adam Zábranský",
+    "tags": "otevřená-data",
+    "url": "https://praha.pirati.cz/magistrat-rozviji-opendata.html"
+  },
+  {
+    "date": "2018-03-09",
+    "title": "Piráti ve Sněmovně pořádají seminář k nařízení o ochraně osobních údajů",
+    "author": "Jakub Dušánek",
+    "tags": "gdpr",
+    "url": "https://pirati.cz/tiskove-zpravy/gdpr-seminar.html"
+  },
+  {
+    "date": "2018-03-12",
+    "title": "Piráti uspořádali seminář k GDPR pro obce",
+    "author": "Jakub Dušánek",
+    "tags": "gdpr",
+    "url": "https://pirati.cz/tiskove-zpravy/seminar-gdpr.html"
+  },
+  {
+    "date": "2018-03-15",
+    "title": "Piráti odmítají omezení přístupu k informacím o střetu zájmů",
+    "author": "Jakub Dušánek",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-odmitli-omezeni-pristupu-k-informaci.html"
+  },
+  {
+    "date": "2018-03-16",
+    "title": "Národní program reforem je obecný a vyhýbá se klíčovým opatřením",
+    "author": "Jakub Dušánek",
+    "tags": "piráti",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-narodni-program-reforem-je-prilis-obecny.html"
+  },
+  {
+    "date": "2018-04-09",
+    "title": "Ivan Bartoš vede parlamentní delegaci na 21. ročník mezinárodní konference o e-Governmentu",
+    "author": "Jakub Dušánek",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/mezinarodni-konference-digitalizace-isss.html"
+  },
+  {
+    "date": "2018-04-19",
+    "title": "Piráti si připomínají deváté výročí listiny, která vedla ke vzniku strany",
+    "author": "Mediální odbor",
+    "tags": "piráti",
+    "url": "https://pirati.cz/tiskove-zpravy/jiri-kaderavek-inicioval-piraty-pred-9lety.html"
+  },
+  {
+    "date": "2018-05-07",
+    "title": "Piráti požadují nejnižší možnou hranici 13 let pro internetovou samostatnost",
+    "author": "Ondřej Profant",
+    "tags": "gdpr",
+    "url": "https://pirati.cz/tiskove-zpravy/gdpr-internetova-samostatnost-od-13.html"
+  },
+  {
+    "date": "2018-05-10",
+    "title": "Klíčový výbor doporučil zveřejňování smluv ČEZu, Českých drah a dalších státních firem",
+    "author": "Jakub Dušánek",
+    "tags": "registr-smluv",
+    "url": "https://pirati.cz/tiskove-zpravy/vybor-doporucil-zverejnovani-smluv.html"
+  },
+  {
+    "date": "2018-05-11",
+    "title": "Piráti o programovém prohlášení: Problém dokumentu je to, co v něm chybí",
+    "author": "Jakub Dušánek",
+    "tags": "vláda",
+    "url": "https://pirati.cz/tiskove-zpravy/reakce-piratu-programove-prohlaseni-vlady.html"
+  },
+  {
+    "date": "2018-05-18",
+    "title": "Tunel Vlasta (Blanka 2) bude!",
+    "author": "Viktor Mahrik",
+    "tags": "doprava",
+    "url": "https://praha.pirati.cz/tunel-vlasta.html"
+  },
+  {
+    "date": "2018-05-21",
+    "title": "Piráti řešili digitalizaci státní správy na semináři v Jihlavě",
+    "author": "Mediální odbor",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/seminar-jihlava-digitalizace.html"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Piráti otevírají novou kancelář a sdílený pracovní prostor u pražské Náplavky",
+    "author": "Karolína Sadílková",
+    "tags": "praha piráti",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-oteviraji-prostor-u-prazske-naplavky.html"
+  },
+  {
+    "date": "2018-06-22",
+    "title": "Vítáme novou datovou platformu Prahy",
+    "author": "Adam Zábranský",
+    "tags": "informatika",
+    "url": "https://praha.pirati.cz/pirati-vitaji-datovou-platformu-prahy.html"
+  },
+  {
+    "date": "2018-07-02",
+    "title": "Ve čtvrtek se rozhodne o budoucnosti svobodného internetu v Evropě",
+    "author": "Jakub Dušánek",
+    "tags": "internet cenzura",
+    "url": "https://pirati.cz/tiskove-zpravy/budoucnost-internetu-odhali-ctvrtecni-hlasovani-europarlamentu.html"
+  },
+  {
+    "date": "2018-07-04",
+    "title": "Piráti upozorňují na nedostatečné technické řešení elektronických občanek",
+    "author": "Andrea Mádlová",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/eobcanky-nemaji-vyreseny-software.html"
+  },
+  {
+    "date": "2018-07-18",
+    "title": "Pirát Ondřej Profant: Zakázka bez soutěže na datová centra vzbuzuje podezření",
+    "author": "Ondřej Profant",
+    "tags": "vláda",
+    "url": "https://pirati.cz/tiskove-zpravy/datova-centra-za-42mil-vzbuzuji-podezreni-rika-profant.html"
+  },
+  {
+    "date": "2018-08-03",
+    "title": "Piráti odeslali vládnímu zmocněnci pro IT seznam expertů k zapojení do projektů Digitálního Česka",
+    "author": "Karolína Sadílková",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-odeslali-dopis-zmocnenci-pro-it.html"
+  },
+  {
+    "date": "2018-08-07",
+    "title": "Komentář poslance Ondřeje Profanta: S ICTU spolupracujeme na zákonu o digitální službě, na podzim půjde do Sněmovny",
+    "author": "Jakub Dušánek",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/ictu-a-pirati-pripravuji-zakon-o-digitalni-sluzbe.html"
+  },
+  {
+    "date": "2018-08-16",
+    "title": "Piráti zavedou jeden pražský webový portál pro vyřizování žádostí na úřadech",
+    "author": "Jakub Dušánek",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-predstavili-vizi-digitalizace-prahy.html"
+  },
+  {
+    "date": "2018-08-16",
+    "title": "Vládní zmocněnec pro IT a digitalizaci potvrdil aktivní zapojení Pirátů do pléna RVIS i pracovních skupin k digitalizaci",
+    "author": "Jakub Dušánek",
+    "tags": "vláda",
+    "url": "https://pirati.cz/tiskove-zpravy/vladni-zmocnenec-pro-IT-potvrdil-roli-piratu-v-rvis.html"
+  },
+  {
+    "date": "2018-08-16",
+    "title": "Piráti zavedou jeden pražský webový portál pro vyřizování žádostí na úřadech",
+    "author": "Zdeněk Hřib",
+    "tags": "informatika magistrát",
+    "url": "https://praha.pirati.cz/pirati-zavedou-jeden-portal-pro-vyrizovani-zadosti-obcanu.html"
+  },
+  {
+    "date": "2018-09-18",
+    "title": "Piráti představili návrh na rozšíření pravomocí NKÚ a budou usilovat o snížení schodku rozpočtu",
+    "author": "Jakub Dušánek",
+    "tags": "sněmovna GDPR NKÚ rozpočet",
+    "url": "https://pirati.cz/tiskove-zpravy/brifink-pred-pokracovanim-19-schuze.html"
+  },
+  {
+    "date": "2018-09-19",
+    "title": "Klíčový zákon eGovernmentu „právo na digitální službu” má podporu Pirátů a dalších parlamentních stran",
+    "author": "Karolína Sadílková",
+    "tags": "sněmovna digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/zakon-pravo-na-digitalni-sluzbu-ma-podporu-snemovny.html"
+  },
+  {
+    "date": "2018-09-27",
+    "title": "Piráti ve Sněmovně představí projekt „Založení firmy za jediný den“",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna podnikání",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-navrhuji-zalozeni-firmy-za-den.html"
+  },
+  {
+    "date": "2018-10-01",
+    "title": "Piráti představili politikům bezplatnou aplikaci, díky které si založíte firmu za jeden den",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna podnikání",
+    "url": "https://pirati.cz/tiskove-zpravy/komentar-ondreje-profanta-zrychlime-podnikani.html"
+  },
+  {
+    "date": "2018-10-09",
+    "title": "Zákon o právu na digitální službu prošel připomínkami všech politických stran",
+    "author": "Mediální odbor",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/obcane-by-meli-mit-moznost-komunikovat-se-statem-elektronicky.html"
+  },
+  {
+    "date": "2018-10-11",
+    "title": "Vláda se ke koncepci registrů dostala až tento týden, základní registry můžou být brzy bez financí, upozorňuje Ondřej Profant",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna legislativa",
+    "url": "https://pirati.cz/tiskove-zpravy/koncepci-registru-resila-vlada-az-tento-tyden.html"
+  },
+  {
+    "date": "2018-10-23",
+    "title": "Nesplněné sliby učitelům, výlet do Moskvy a deficitní rozpočet. Piráti komentovali témata začínající schůze Sněmovny",
+    "author": "Jakub Dušánek",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/briefing-piratu-pred-20-schuzi.html"
+  },
+  {
+    "date": "2018-10-26",
+    "title": "Saská policie se chystá podél hranic s ČR instalovat kamery s rozpoznáváním obličejů",
+    "author": "Mediální odbor",
+    "tags": "doprava eu",
+    "url": "https://pirati.cz/tiskove-zpravy/sasko-zavede-kamery-pro-detekci-obliceju.html"
+  },
+  {
+    "date": "2018-11-14",
+    "title": "Piráti varují před bezpečnostními riziky cloudového řešení pro veřejnou správu",
+    "author": "Mediální odbor",
+    "tags": "digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-varuji-pred-riziky-cloudu-pro-verejnou-spravu.html"
+  },
+  {
+    "date": "2018-12-05",
+    "title": "Profant: Piráti zabránili silnému omezení práva na informace",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna celostátní legislativa komentář",
+    "url": "https://pirati.cz/tiskove-zpravy/pirati-zabranili-silnemu-omezeni-prava-na-informace.html"
+  },
+  {
+    "date": "2018-12-07",
+    "title": "Stát utrácí 1,7 miliardy Kč ročně za poštovné. Využívejme efektivněji datové schránky, vyzývají Piráti",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna digitalizace informatika",
+    "url": "https://pirati.cz/tiskove-zpravy/stat-utraci-moc-za-postu-pirati-chteji-datove-schranky.html"
+  },
+  {
+    "date": "2019-01-03",
+    "title": "Konec digitálních kopií v knihovnách? Ministerstvo kultury nezvládlo zaručit financování",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna kultura komentář",
+    "url": "https://pirati.cz/tiskove-zpravy/komentar-profanta-konec-digitalnich-kopii-v-knihovnach.html"
+  },
+  {
+    "date": "2019-01-09",
+    "title": "Piráti představili řešení kyberbezpečnosti na komisi pro NÚKIB, uvádí poslanec Profant",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna",
+    "url": "https://pirati.cz/tiskove-zpravy/komise-k-nukib-o-bezpecnosti-technologii.html"
+  },
+  {
+    "date": "2019-01-31",
+    "title": "Založit firmu půjde za jeden den a online. Piráti připravili potřebnou legislativu",
+    "author": "Martin Jiránek",
+    "tags": "sněmovna Obchod",
+    "url": "https://pirati.cz/tiskove-zpravy/firmu-pujde-zalozit-za-jeden-den.html"
+  },
+  {
+    "date": "2019-02-01",
+    "title": "Komentář Ondřeje Profanta: O jednu absurditu méně – vláda bude muset nově zveřejňovat technické normy",
+    "author": "Ondřej Profant",
+    "tags": "sněmovna Informatika",
+    "url": "https://pirati.cz/tiskove-zpravy/o-jednu-absurditu-mene-vlada-bude-muset-zverejnovat-technicke-normy.html"
+  },
+  {
+    "date": "2019-02-21",
+    "title": "Piráti se aktivně podílí na digitalizaci Česka. Připravili akční plán pro zavedení otevřeného softwaru na úřadech",
+    "author": "Mediální odbor",
+    "tags": "sněmovna celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/akcni-plan-piratu-digitalizace-otevreny-software.html"
+  },
+  {
+    "date": "2019-03-20",
+    "title": "Piráti: Soukromí občanů v ohrožení. Vláda chce zavést možnost zpravodajských služeb šmírovat občany na internetu",
+    "author": "Mediální odbor",
+    "tags": "sněmovna celostátní obrana bezpečnost cenzura",
+    "url": "https://pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html"
+  },
+  {
+    "date": "2019-04-02",
+    "title": "Pirát Profant diskutoval se zástupci samospráv o Akčním plánu pro zavedení otevřeného softwaru na úřadech",
+    "author": "Mediální odbor",
+    "tags": "celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/isss-profant.html"
+  },
+  {
+    "date": "2019-04-05",
+    "title": "Ministerstva nesprávně využívají registr smluv",
+    "author": "Mediální odbor",
+    "tags": "celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/ministerstva-registr-smluv.html"
+  },
+  {
+    "date": "2019-04-10",
+    "title": "Piráti šíří využívání elektronického podpisu ve Sněmovně",
+    "author": "Mediální odbor",
+    "tags": "sněmovna celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/piratsti-poslanci-zacali-vyuzivat-el-podpis.html"
+  },
+  {
+    "date": "2019-04-23",
+    "title": "NKÚ ve své zprávě k výdajům finanční správy potvrdil slova Pirátů",
+    "author": "Mediální odbor",
+    "tags": "celostátní sněmovna digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/nku-potvrdil-slova-piratu.html"
+  },
+  {
+    "date": "2019-04-30",
+    "title": "Vláda zaujala neutrální stanovisko k pirátskému návrhu na založení firmy za jeden den",
+    "author": "Mediální odbor",
+    "tags": "celostátní vláda sněmovna digitalizace podnikání",
+    "url": "https://pirati.cz/tiskove-zpravy/firma-za-jeden-den-neutralni-stanovisko-vlady.html"
+  },
+  {
+    "date": "2019-05-06",
+    "title": "Zákon garantující digitální komunikaci občanů se státem má podporu vlády",
+    "author": "Mediální odbor",
+    "tags": "celostátní sněmovna legislativa digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/garance-digitalni-sluzby-zakon-prosel-vladou.html"
+  },
+  {
+    "date": "2019-05-28",
+    "title": "Zákon o právu na digitální službu prošel ve Sněmovně prvním čtením",
+    "author": "Mediální odbor",
+    "tags": "sněmovna legislativa celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/navrh-zakona-pravo-na-digitalni-sluzbu-prvni-cteni.html"
+  },
+  {
+    "date": "2019-06-05",
+    "title": "Piráti navrhují opatření proti šmírovaní na internetu",
+    "author": "Mediální odbor",
+    "tags": "celostátní sněmovna legislativa",
+    "url": "https://pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html"
+  },
+  {
+    "date": "2019-06-12",
+    "title": "Piráti ukazují, jak má probíhat vývoj e-governmentu, veřejně otestují svou aplikaci",
+    "author": "Mediální odbor",
+    "tags": "celostátní sněmovna legislativa digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/e-government-test-u-piratu.html"
+  },
+  {
+    "date": "2019-06-21",
+    "title": "Profant: Digitální technická mapa je krok k chytřejší práci s daty. Zefektivní územní plánování i stavební řízení",
+    "author": "Mediální odbor",
+    "tags": "sněmovna celostátní digitalizace",
+    "url": "https://pirati.cz/tiskove-zpravy/technicka-digitalni-mapa-zefektivni-uzemni-planovani.html"
+  }
+]
+}

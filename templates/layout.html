@@ -1,30 +1,131 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{'/gen/bundle.css'|asseturl }}">
-<script type=text/javascript src="{{'/gen/bundle.js'|asseturl }}" charset="utf-8"></script>
-<title>{% block title %}Welcome{% endblock %} — profant.py</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="HandheldFriendly" content="true"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% block title %}Welcome{% endblock %} — profant.py</title>
+  <meta name="author" content="">
+	<meta name="robots" content="index,follow" />
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta property="og:title"         content="" />
+	<meta property="og:description"   content="" />
+	<meta property="og:image"         content="" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:url"           content="" />
+	<meta name="twitter:card" 				content="summary_large_image">
+	<meta name="twitter:site" 				content="@ondrej_profant">
+	<meta name="twitter:creator" 			content="@ondrej_profant">
+	<meta name="twitter:title" 				content="">
+	<meta name="twitter:description" 	content="">
+  <meta name="twitter:image" 				content="">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ 'static/favicon/apple-touch-icon-57x57.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'static/favicon/apple-touch-icon-114x114.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'static/favicon/apple-touch-icon-72x72.png'  | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'static/favicon/apple-touch-icon-144x144.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ 'static/favicon/apple-touch-icon-60x60.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ 'static/favicon/apple-touch-icon-120x120.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ 'static/favicon/apple-touch-icon-76x76.png' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ 'static/favicon/apple-touch-icon-152x152.png' | asseturl }}">
+  <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-196x196.png' | asseturl }}" sizes="196x196">
+  <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-96x96.png' | asseturl }}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-16x16.png' | asseturl }}" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-32x32.png' | asseturl }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-128.png' | asseturl }}" sizes="128x128">
+  <link rel="stylesheet" href="{{'/gen/bundle.css'|asseturl }}">
+  <script type=text/javascript src="{{'/gen/bundle.js'|asseturl }}" charset="utf-8"></script>
+</head>
 <body>
   <header>
-    <h1>profant.py</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/transparentnost', 'Otevřenost'],
-          ['/uspechy', 'Úspěchy']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+    <nav class="sitenav">
+        <div class="row">
+          <div class="columns small-12">
+            <ul class="sitenav-items">
+              <li class="sitenav-items__item sitenav-items__item--main">
+                <div class="sitenav-profile">
+                    <div class="sitenav-profile__brand">
+                      <a href="/"><img src="{{ 'static/logo_napis_white.svg' | asseturl}}" alt="Logo Piráti" /></a>
+                    </div>
+                    <div class="sitenav-profile__author">
+                      <a class="sitenav-profile__author-name" href="/">Ondřej Profant</a>
+                      <div class="sitenav-social">
+                        <a class="sitenav-social__link" href="https://www.facebook.com/ondrej.profant"><i class="fab fa-facebook"></i></a>
+                        <a class="sitenav-social__link" href="https://twitter.com/ondrej_profant"><i class="fab fa-twitter"></i></a>
+                        <a class="sitenav-social__link" href="https://github.com/kedrigern/"><i class="fab fa-github"></i></a>
+                        <a class="sitenav-social__link" href="feed.xml" alt="ATOM/RSS"><i class="fas fa-rss"></i></a>
+                        <a class="sitenav-social__link" href="mailto:{{site.email}}"><i class="far fa-envelope"></i></a>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="sitenav-items__item">
+                <ul class="sitenav-links">
+                    {% for href, title in [
+                      ['/blog', 'Blog'],
+                      ['/bio', 'Bio'],
+                      ['/transparentnost', 'Otevřenost'],
+                      ['/uspechy', 'Úspěchy']
+                    ] %}
+                      <li class="sitenav-links__link{% if this.is_child_of(href) %} active{% endif %}"><a href="{{ href|url }}">{{ title }}</a></li>
+                    {% endfor %}
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </header>
-  <div class="page">
     {% block body %}{% endblock %}
+  <div class="debug">
+    Model: {{this._model}}
+    </ul>
   </div>
-  <footer>
-    &copy; Copyright 2019 by Ondřej Profant.
-  </footer>
+  <footer class="footer">
+      <div class="row footer__main">
+        <div class="small-12 middle-6 medium-3 columns">
+          <a href="/"><img class="footer__brand" src="{{ 'static/logo_napis_white.svg' | asseturl }}" alt="Piráti logo" /></a>
+          <h3 class="t-h5-sub">{{ site.author }}</h3>
+          <ul class="no-bullet">
+            <li>poslanec PSP ČR</li>
+            <li>vedoucí <a href="https://www.pirati.cz/pripoj-se/informatika/">resortního týmu informatika</a></li>
+          </ul>
+        </div>
+        <div class="small-12 middle-6 medium-3 columns">
+          <h3 class="footer-nav__headline">Sněmovna</h3>
+          <ul class="no-bullet">
+            <li>Malostranské náměstí 7/19</li>
+            <li>Praha 1 - Malá strana</li>
+            <li>+420 726 362 025 <small>(kancelář)</small></li>
+            <li><a href="mailto:">{{site.email}}</a></li>
+          </ul>
+        </div>
+        <div class="small-12 middle-6 medium-3 columns">
+          <h3 class="footer-nav__headline">Poslanecká kancelář</h3>
+          <ul class="no-bullet">
+      <li>Pirátské centrum</li>
+            <li>Na Moráni 360/3</li>
+            <li>128 00 Praha 2</li>
+            <li>Pondělí 14&ndash;17h</li>
+          </ul>
+        </div>
+        <div class="small-12 middle-6 medium-3 columns">
+          <h3 class="footer-nav__headline">Dále</h3>
+          <ul class="no-bullet">
+            <li><a href="{{'/medialni-vystupy' | url}}">Mediální výstupy</a></li>
+            <li><a href="{{'/leg' | url}}">eGov legislativa</a></li>
+            <li><a href="{{'/verejne-zakazky' | url}}">Veřejné zakázky</a></li>
+            <li><a href="{{'/agenda' | url}}">Aktuální agenda</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="footer__copy">
+        <div class="row">
+          <div class="small-12 columns footer__copy-line">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/cz/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/cz/88x31.png" /></a> <small>Toto dílo podléhá licenci <a rel="license" href="http://creativecommons.org/licenses/by/3.0/cz/">Creative Commons Uveďte původ 3.0 Česká republika License</a>.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>

@@ -1,55 +1,28 @@
-@font-face {
-  font-family: OpenSans;
-  src: url('../fonts/OpenSans-Regular.ttf');
-}
+// SASS entry point, compiled via webpack
 
-body {
-  margin: 50px 25px;
-}
+@import 'settings';
+@import 'fonts';
 
-#experimental {
-  min-height: 100vh;
-  background: rgb(94, 0, 58);
-  color: white;
-  background-image: url('../images/cat.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-}
+@import 'mixins/typography';
 
-a {
-  color: #2a99b6;
-}
+// Foundation 6.5
+@import "../../node_modules/foundation-sites/scss/foundation";
 
-a:hover {
-  color: #33bbdf;
-}
+@import 'foundation';
+@import 'base';
+@import 'typography';
 
-header, footer, div.page {
-  width: 760px;
-  margin: 0 auto;
-  background: #daeef3;
-  padding: 20px 30px;
-}
+@import 'components/article-illustration';
+@import 'components/blog-posting';
+@import 'components/content-block';
+@import 'components/footer';
+@import 'components/page';
+@import 'components/post';
+@import 'components/sitebanner';
+@import 'components/sitenav';
+@import 'components/tagcloud';
+@import 'components/timeline';
+@import 'components/article-note';
 
-header h1 {
-  color: #169bbd;
-  margin: 0;
-  font-weight: normal;
-  font-size: 42px;
-}
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0;
-}
-
-div.page {
-  background: #f1fbfe;
-}
+// Font Awesome 5.10
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";

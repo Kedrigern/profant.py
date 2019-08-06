@@ -1,6 +1,20 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+<article class="page">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1 class="page__headline">{{this.title}}</h1>
+      </div>
+    </div>
+    <div class="row" id="content">
+      <div class="small-12 medium-8 columns">
+          {{ this.body }}
+      </div>
+      <div class="medium-4 show-for-medium columns">
+        <a class="twitter-timeline" data-lang="cs" data-height="1200" data-dnt="true" data-theme="light" href="https://twitter.com/ondrej_profant?ref_src=twsrc%5Etfw">Tweets by ondrej_profant</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+    </div>
+</article>
 {% endblock %}
