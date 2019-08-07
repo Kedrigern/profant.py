@@ -5,3 +5,4 @@ url = https://www.profant.eu
 [packages]
 lektor-read-full-post = 0.3
 lektor-webpack-support = 0.5
+lektor-atom = 0.3
