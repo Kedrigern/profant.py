@@ -13,14 +13,14 @@ Lektor je nový a moderní projekt napsaný v Pythonu 3. Poučil se z chyb před
 ## Roadmap
 
 - [X] **základní struktura**: menu, statické stránky (bez plného obsahy)
-  - [X] hlavní menu: 4a7a4ba9995e3f261b53059277711c318a02472f
+  - [X] hlavní menu: [4a7a4ba](https://github.com/Kedrigern/profant.py/commit/4a7a4ba9995e3f261b53059277711c318a02472f)
   - [X] statické stránky (bez plného obsahu)
 - [ ] **blog post**: (neobsahuje migrace starého obsahy)
   - [X] struktura článku se všemi metadaty apod.
   - [X] perex ve výpisu, [plugin](https://github.com/Andrew-Shay/lektor-read-full-post)
   - [X] obrázek ve výpisu
   - [ ] [kategorie](https://www.getlektor.com/docs/guides/categories/)
-- [ ] **styly a skripty**: 4380f8a152233da8a92db825f5edd513e01f7aaa
+- [ ] **styly a skripty**: [4380f8a](https://github.com/Kedrigern/profant.py/commit/4380f8a152233da8a92db825f5edd513e01f7aaa)
   - [X] [Webpack 4](https://www.getlektor.com/docs/guides/webpack/) (návod je však pro starší verze webpack): cc88fd164cc56f047dad8c75a22bac26fdd1dadf
   - [X] [Foundation 6](https://foundation.zurb.com/)
   - [X] Custom styly / SASS ([tutorial pro webpack](https://dev.to/pixelgoo/how-to-configure-webpack-from-scratch-for-a-basic-website-46a5))
@@ -31,10 +31,10 @@ Lektor je nový a moderní projekt napsaný v Pythonu 3. Poučil se z chyb před
 - [ ] **migrace blog postů**
   - [ ] Texty
   - [ ] Přílohy
-- [X] **RSS/Atom**: [návod](https://www.getlektor.com/plugins/lektor-atom/):
+- [X] **RSS/Atom**: [návod](https://www.getlektor.com/plugins/lektor-atom/): [0b6228c](https://github.com/Kedrigern/profant.py/commit/0b6228cc31d9a8eca101dc4bc9618a021de43408)
 - [ ] **seo**:
   - [ ] urls (same or permanent redirect), [question in discusion](https://www.getlektor.com/docs/guides/blog/)
-  - [X] [sitemap](https://www.getlektor.com/docs/guides/sitemap/): ac73c41d5564b44d5464145a93848eee314e4e12
+  - [X] [sitemap](https://www.getlektor.com/docs/guides/sitemap/): [ac73c41](https://github.com/Kedrigern/profant.py/commit/ac73c41d5564b44d5464145a93848eee314e4e12)
   - [ ] meta keywords
   - [ ] twitter sharing
   - [ ] FB sharing
