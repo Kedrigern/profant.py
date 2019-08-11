@@ -4,9 +4,11 @@
 <article class="blog-posting" itemtype="http://schema.org/BlogPosting" itemscope>
   <div class="row">
     <div class="small-12 medium-4 columns imagebox">
+      {% if post.attachments.images %}
       <a href="{{ post | url }}">
         <img class="thumbnail blog-posting__media" src="{{ post.attachments.images.first() |url }}" alt="{{post.title}}">
       </a>
+      {% endif %}
     </div>
     <div class="small-12 medium-8 columns">
       <div itemprop="author" itemtype="http://schema.org/Person" itemscope>
@@ -14,10 +16,10 @@
       </div>
       <h1 class="blog-posting__headline t-h4"><a href="{{ post | url }}" itemprop="headline">{{ post.title }}</a></h1>
       <p class="blog-posting__excerpt">
-        <meta itemprop="datePublished" content="{{ post.date }}" />
-        <meta itemprop="dateModified" content="{% if post.modified_time %}{{ post.modified_time  }}{% else %}{{ post.date }}{% endif %}" />
+        <meta itemprop="datePublished" content="{{ post.pub_date }}" />
+        {#<meta itemprop="dateModified" content="{% if post.modified_time %}{{ post.modified_time  }}{% else %}{{ post.date }}{% endif %}" />#}
         <link itemprop="mainEntityOfPage" href="{{ post | url }}" />
-        <i class="blog-posting__pubdate">{{ post.date }}</i>&nbsp;&mdash;&nbsp;<span itemprop="description"> {{ post.body_short }}</span>
+        <i class="blog-posting__pubdate">{{ post.pub_date | dateformat('d. M. Y') }}</i>&nbsp;&mdash;&nbsp;<span itemprop="description">{{ post.perex }}</span>
       </p>
       <p>
         <a class="blog-posting__readmore" href="{{ post| url }}">Číst dále &raquo;</a>
@@ -25,16 +27,19 @@
     </div>
   </div>
 </article>
+
 {% else %}
 
+{% if post.attachments.images %}
 <div class="post__thumbnail">
   <img class="thumbnail" src="{{ post.attachments.images.first() |url }}">
   <meta itemprop="image" content="{{ post.attachments.images.first() |url }}">
 </div>
+{% endif %}
 
 <p class="post__excerpt content-block">
-    <meta itemprop="datePublished" content="{{ post.date }}" />
-    <i>{{ post.date }}</i> &mdash; <span itemprop="description">{{ post.body_short }}</span>
+    <meta itemprop="datePublished" content="{{ post.pub_date }}" />
+    <i>{{ post.pub_date }}</i> &mdash; <span itemprop="description">{{ post.perex }}</span>
 </p>
 
 <div id="content" class="post__content content-block">

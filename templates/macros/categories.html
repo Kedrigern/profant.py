@@ -1,0 +1,18 @@
+{# https://foundation.zurb.com/sites/docs/tabs.html #}
+
+{% macro render_category_nav(active=none) %}
+  <ul class="tabs" data-tabs id="example-tabs">
+  {% for blog in site.query('/blog-categories') %}
+    <li class="tab-title{% if blog._id == active %} active"{% endif
+      %}"><a href="{{ blog|url }}">{{ blog.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro render_project_list(blog) %}
+  <ul>
+  {% for post in blog %}
+    <li><a href="{{ post|url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endmacro %}

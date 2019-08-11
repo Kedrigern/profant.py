@@ -15,11 +15,11 @@ Lektor je nový a moderní projekt napsaný v Pythonu 3. Poučil se z chyb před
 - [X] **základní struktura**: menu, statické stránky (bez plného obsahy)
   - [X] hlavní menu: [4a7a4ba](https://github.com/Kedrigern/profant.py/commit/4a7a4ba9995e3f261b53059277711c318a02472f)
   - [X] statické stránky (bez plného obsahu)
-- [ ] **blog post**: (neobsahuje migrace starého obsahy)
+- [X] **blog post**: (neobsahuje migrace starého obsahy)
   - [X] struktura článku se všemi metadaty apod.
   - [X] perex ve výpisu, [plugin](https://github.com/Andrew-Shay/lektor-read-full-post)
   - [X] obrázek ve výpisu
-  - [ ] [kategorie](https://www.getlektor.com/docs/guides/categories/)
+  - [X] [kategorie](https://www.getlektor.com/docs/guides/categories/)
 - [ ] **styly a skripty**: [4380f8a](https://github.com/Kedrigern/profant.py/commit/4380f8a152233da8a92db825f5edd513e01f7aaa)
   - [X] [Webpack 4](https://www.getlektor.com/docs/guides/webpack/) (návod je však pro starší verze webpack): cc88fd164cc56f047dad8c75a22bac26fdd1dadf
   - [X] [Foundation 6](https://foundation.zurb.com/)
