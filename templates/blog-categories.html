@@ -1,23 +1,33 @@
 {% extends "layout.html" %}
-{% from "macros/categories.html" import render_category_nav %}
 {% block title %}Kategorie{% endblock %}
 {% block body %}
-<article class="page">
-    <div class="row">
-      <div class="small-12 columns">
-        <h1 class="page__headline">{{this.title}}</h1>
+
+{% set cats = site.query('/blog-categories') %}    
+
+<div class="row collapse">
+    <div class="medium-3 columns">
+      <ul class="vertical tabs" data-tabs id="kategorie" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500">
+        {% for cat in cats %}
+        <li class="tabs-title{% if loop.first %} is-active{%endif%}">
+          <a href="#{{cat._id}}"{%if loop.first%} aria-selected="true"{%endif%}>{{cat.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="medium-9 columns">
+      <div class="tabs-content" data-tabs-content="kategorie">
+        {% for cat in cats %}
+        <div class="tabs-panel{%if loop.first%} is-active{%endif%}" id="{{cat._id}}">
+          <h2>{{cat.name}}</h2>
+          {% if not cat.children %}
+          <p>Litujeme, ale v této kategorii nejsou žádné články.</p>
+          {% endif %}
+          {% for post in cat.children%}
+          <p>{{cat.name}}: <a href="{{post|url}}">{{post.title}}</a></p>
+          {%endfor%}
+        </div>
+        {% endfor %}
       </div>
     </div>
-    <div class="row" id="content">
-      <div class="small-12 medium-8 columns">
-          <h1>Kategorie</h1>
-          {{ this.body }}
-          {{ render_category_nav(active=none) }}
-      </div>
-      <div class="medium-4 show-for-medium columns">
-        <a class="twitter-timeline" data-lang="cs" data-height="1200" data-dnt="true" data-theme="light" href="https://twitter.com/ondrej_profant?ref_src=twsrc%5Etfw">Tweets by ondrej_profant</a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-      </div>
-    </div>
-</article>
+  </div>
 {% endblock %}

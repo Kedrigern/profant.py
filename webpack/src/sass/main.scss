@@ -1,4 +1,5 @@
 // SASS entry point, compiled via webpack
+@charset 'utf-8';
 
 @import 'settings';
 @import 'fonts';
@@ -6,9 +7,9 @@
 @import 'mixins/typography';
 
 // Foundation 6.5
-@import "../../node_modules/foundation-sites/scss/foundation";
+@import 'foundation-sites/scss/foundation';
+@import 'foundation';   // local foundation file that include needed foundation components
 
-@import 'foundation';
 @import 'base';
 @import 'typography';
 

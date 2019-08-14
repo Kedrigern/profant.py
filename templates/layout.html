@@ -34,7 +34,6 @@
   <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-32x32.png' | asseturl }}" sizes="32x32">
   <link rel="icon" type="image/png" href="{{ 'static/favicon/favicon-128.png' | asseturl }}" sizes="128x128">
   <link rel="stylesheet" href="{{'/gen/bundle.css'|asseturl }}">
-  <script type=text/javascript src="{{'/gen/bundle.js'|asseturl }}" charset="utf-8"></script>
 </head>
 <body>
   <header>
@@ -76,7 +75,7 @@
         </div>
       </nav>
   </header>
-    {% block body %}{% endblock %}
+  {% block body %}{% endblock %}
   <div class="debug">
     Model: {{this._model}}
     </ul>
@@ -128,4 +127,5 @@
         </div>
       </div>
     </footer>
+    <script type=text/javascript src="{{'/gen/bundle.js'|asseturl }}" charset="utf-8"></script>
 </body>
