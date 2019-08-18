@@ -7,7 +7,7 @@
 @import 'mixins/typography';
 
 // Foundation 6.5
-@import 'foundation-sites/scss/foundation';
+@import '../../node_modules/foundation-sites/scss/foundation';
 @import 'foundation';   // local foundation file that include needed foundation components
 
 @import 'base';

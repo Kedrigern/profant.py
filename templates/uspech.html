@@ -1,0 +1,22 @@
+{# TODO: only for preview and editation #}
+
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+<h1>{{this.title}}</h1>
+
+<img src="{{this.img}}">
+
+<p><i class="fa fa-{{this.icon}}"></i> {{this.description}}</p>
+
+<h2>Linky</h2>
+
+<ul>
+  {% set links = this.link.split(';') %}
+  {% for link in links %}
+  <li><a href="{{link}}">{{link}}</a></li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
