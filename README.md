@@ -33,7 +33,7 @@ Lektor je nový a moderní projekt napsaný v Pythonu 3. Poučil se z chyb před
   - [ ] Přílohy
 - [X] **RSS/Atom**: [návod](https://www.getlektor.com/plugins/lektor-atom/): [0b6228c](https://github.com/Kedrigern/profant.py/commit/0b6228cc31d9a8eca101dc4bc9618a021de43408)
 - [ ] **seo**:
-  - [ ] urls (same or permanent redirect), [question in discusion](https://www.getlektor.com/docs/guides/blog/), [stack overflow](https://stackoverflow.com/questions/44972297/changing-the-url-structure-of-lektor-for-blog-posts-to-be-in-the-parent-director)
+  - [ ] urls (same or permanent redirect), [question in discusion](https://www.getlektor.com/docs/guides/blog/), [stack overflow](https://stackoverflow.com/questions/44972297/changing-the-url-structure-of-lektor-for-blog-posts-to-be-in-the-parent-director), [netlify solution](https://www.netlify.com/docs/redirects/)
   - [X] [sitemap](https://www.getlektor.com/docs/guides/sitemap/): [ac73c41](https://github.com/Kedrigern/profant.py/commit/ac73c41d5564b44d5464145a93848eee314e4e12)
   - [ ] meta keywords
   - [ ] twitter sharing
