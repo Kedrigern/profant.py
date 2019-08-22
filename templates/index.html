@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="page">
+<div class="row">
+  <div class="small-12 columns">
+      
+<div class="sitebanner show-for-medium">
+    <div class="row">
+      <div class="columns medium-12">
+        <div class="sitebanner__cover">
+          <div class="tagcloud">
+            <div class="tagcloud__canvas">
+                {#
+                {% set cats = site.query('/blog-categories') %}
+                {{cats}}
+              
+                {% set total_posts_in_cats = 0.0 %}
+                {% for cat in cats %}
+                  {% set posts_in_cat = cat | length %}
+                  {% set total_posts_in_cats = total_posts_in_cats + posts_in_cat %}
+                {% endfor %}
+                {% for cat in cats %}
+                  {% set weight = len(cat[1]) / total_posts_in_cats %}
+                  {% set compensated_weight = 0 %} {#weight | times: weight | times: weight | times: weight | times: 25 %}
+                  {% set opacity = 0.2 + compensated_weight %}
+                  {% set size = compensated_weight * 80 + 200 %}
+                  <a class="tagcloud__tag" href="{{ 'kategorie' | url }}#{{ cat[0] }}" style="font-size: {{ size }}%; opacity: {{ opacity }};">{{ cat[0] }}</a>
+                {% endfor %}
+                #}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="row" id="content">
+    <div class="small-12 medium-8 columns">
+       
+        {% for child in this.pagination.items %}
+        {{ render_blog_post(child, from_index=true) }}
+        {% endfor %}
+        {{ render_pagination(this.pagination) }}
+      </div>
+      <div class="medium-4 show-for-medium columns">
+        <a class="twitter-timeline" data-lang="cs" data-height="1200" data-dnt="true" data-theme="light" href="https://twitter.com/ondrej_profant?ref_src=twsrc%5Etfw">Tweets by ondrej_profant</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+</div>
+</div>
+{% endblock %}
